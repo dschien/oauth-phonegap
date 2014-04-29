@@ -1,3 +1,6 @@
+# Fork of OAuth.io Apache Cordova/PhoneGap Plugin
+Fixes issue with config.xml file.
+
 # OAuth.io Apache Cordova/PhoneGap Plugin
 
 This is the official plugin for [OAuth.io](https://oauth.io) in [PhoneGap/Apache Cordova](http://incubator.apache.org/cordova/)!
