@@ -17,9 +17,18 @@
         <clobbers target="OAuth" />
     </js-module>
 
+<platform name="android">        
     <config-file target="res/xml/config.xml" parent="/*">
       <access origin="https://oauth.io" />
     </config-file>
+</platform>
+
+<platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <access origin="https://oauth.io" />
+    </config-file>
+</platform>
+
 
     <engines>
       <engine name="cordova" version=">=3.0.0" />
